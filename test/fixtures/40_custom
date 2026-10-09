@@ -1,0 +1,7 @@
+#!/bin/sh
+exec tail -n +3 $0
+# Entradas personalizadas de EZGrubConfig
+menuentry 'Rescue' --id 'rescue-1' {
+	linux /boot/vmlinuz-rescue root=UUID=rescue rw
+	initrd /boot/initramfs-rescue.img
+}

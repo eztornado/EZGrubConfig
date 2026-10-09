@@ -1,0 +1,5 @@
+GRUB_DEFAULT='gnulinux-advanced-uuid1>gnulinux-linux-cachyos-lts-advanced-uuid1'
+GRUB_TIMEOUT='5'
+GRUB_TIMEOUT_STYLE=menu
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash clocksource=tsc tsc=reliable"
+GRUB_CMDLINE_LINUX=""
